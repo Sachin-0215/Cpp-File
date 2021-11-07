@@ -1,0 +1,19 @@
+#include<iostream>
+#include<algorithm>
+#include<vector>
+
+using namespace std;
+
+int main()
+{
+    vector<int> v;
+    v.push_back(2);
+    v.push_back(4);
+    v.push_back(5);
+    v.push_back(28);
+
+    cout<<"Finding 28 -> "<<binary_search(v.begin(),v.end(),28)<<endl;
+
+    
+    return 0;
+}

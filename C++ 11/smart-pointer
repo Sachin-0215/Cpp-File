@@ -1,0 +1,5 @@
+smart pointer are of 3 types
+
+* Unique pointer
+* Shared pointer
+* weak pointer
